@@ -22,7 +22,9 @@ function calcularPrecio() {
     const precioPorKilo = parseFloat(tipoSalmon.value);
     const precioTotal = (precioPorKilo * peso)/1000;
 
+    const precioFormateado = precioTotal.toLocaleString('es-CL');
+
     resultado.classList.remove('d-none', 'alert-danger');
     resultado.classList.add('alert-success');
-    resultado.textContent = `El precio total del filete es: $${precioTotal}`;
+    resultado.textContent = `El precio total del filete es: $${precioFormateado}`;
 }
