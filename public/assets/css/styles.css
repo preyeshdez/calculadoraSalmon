@@ -1,0 +1,11 @@
+#salmonCalculator {
+    min-width: 60%;
+    max-width: 80%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#botonCalcular {
+    max-width: 60%; 
+    margin: 0 auto; 
+    display: block;
+}
